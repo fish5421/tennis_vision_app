@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data files (large/generated)
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.npy
+data/*.png
+data/*.jpg
+
+# Keep data directory structure
+!data/.gitkeep
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch/ML
+*.pt
+*.pth
+*.onnx
+checkpoints/
